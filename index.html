@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cadastro</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php">
+
+        <h1>Formulario HTML</h1>
+
+        <h2>Data</h2>
+        <label for="date">Data: </label>
+        <input type="date" id="data" name="data"><br>
+
+        <h2>Dados:</h2>
+        <label for="nome">Login: </label>
+        <input type="text" id="nome" name="name">
+        <br><br>
+        <label for="Senha">Senha: </label>
+        <input type="password" id="Senha" name="Senha">
+        <br><br>
+
+        <h2>Dados Pessoais</h2>
+        <label for="nome">Nome: </label><br>
+        <input type="name" id="nome" name="nome">
+        <br><br>
+        <label for="Endereço">Endereço: </label><br>
+        <input type="name" id="Endereço" name="Endereço">
+        <br><br>
+        <label for="num">Numero: </label><br>
+        <input type="name" id="num" name="num">
+        <br><br>
+        <label for="Comp">Complemento: </label><br>
+        <input type="name" id="Comp" name="Comp">
+        <br><br>
+
+        Cidade:
+        <br>
+        <input list="Cidade" name="cidades">
+        <datalist id="cidade">
+            <option value="Sorocaba">
+            <option value="Boituva">
+            <option value="SP">
+            <option value="Itapetinimga">
+            <option value="teste">
+        </datalist>
+        <br><br>
+        <label for="estado">Estado: </label>
+        <br>
+        <select name="estado" id="estado">
+            <option value="Sp">São Paulo</option>
+            <option value="Mg">Minas Gerais</option>
+            <option value="Rj">Rio de Janeiro</option>
+        </select>
+        <br><br>
+        <label for="CEP">CEP:</label>
+        <br>
+        <input type="number" id="CEP" name="CEP">
+        <br>
+
+
+
+        <h2>Gênero</h2>
+        <input type="radio" id="Homem" name="Gênero" value="Homem" checked>
+        <label for="Homem">Masculino</label>
+        <br>
+        <input type="radio" name="Gênero" id="Mulher" value="Mulher">
+        <label for="Mulher">Feminino</label>
+        <br>
+        <input type="radio" name="Gênero" id="Outro" value="Outro">
+        <label for="Outro">Prefiro não falar</label>
+        <br>
+
+
+        <h2>Curso</h2>
+        <input type="checkbox" id="ADS" name="Curso" value="ADS" checked>
+        <label for="ADS">ADS</label><br>
+
+        <input type="checkbox" name="Curso" id="Jogo" value="Jogo">
+        <label for="Jogo">Jogos</label><br>
+
+        <input type="checkbox" name="Curso" id="TI" value="TI">
+        <label for="TI">Gestão de TI</label><br>
+
+        <input type="checkbox" name="Curso" id="Dados" value="Dados">
+        <label for="Dados">Banco de Dados</label>
+        <br>
+
+        <h2>Modelo</h2>
+
+        <input type="radio" id="sala" name="Modelo" value="sala" checked>
+        <label for="sala">Presencial</label><br>
+
+        <input type="radio" name="Modelo" id="online" value="online">
+        <label for="online">EAD</label><br>
+
+        <input type="radio" name="Modelo" id="Semi" value="Semi">
+        <label for="Semi">Semi presencial</label>
+        <br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
